@@ -1,0 +1,42 @@
+
+@host = http://localhost
+@port=3000
+
+@url={{host}}:{{port}}
+### GET * FROM tables 
+
+GET {{url}}/wallets
+Content-Type: application/json
+
+### GET one record from tables 
+
+GET {{url}}/wallets/1
+Content-Type: application/json
+
+### GET one record from tables
+
+POST {{url}}/wallets
+Content-Type: application/json
+
+{
+    "id": 2,
+    "userId": 1,
+    "name": "PostTest",
+    "balance": 3500
+}
+
+### DELETE one record from tables by ID
+
+DELETE {{url}}/wallets/2
+Content-Type: application/json
+
+### PATCH one record from tables by ID
+
+PATCH {{url}}/wallets/2
+Content-Type: application/json
+
+{
+    
+    "name": "updateTest",
+    "balance": 350000
+}
