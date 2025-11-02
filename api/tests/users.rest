@@ -19,7 +19,7 @@ POST {{url}}/wallets
 Content-Type: application/json
 
 {
-    "id": 2,
+    "id": 3,
     "userId": 1,
     "name": "PostTest",
     "balance": 3500
@@ -27,7 +27,7 @@ Content-Type: application/json
 
 ### DELETE one record from tables by ID
 
-DELETE {{url}}/wallets/2
+DELETE {{url}}/wallets/3
 Content-Type: application/json
 
 ### PATCH one record from tables by ID

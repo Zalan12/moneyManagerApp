@@ -52,3 +52,30 @@
 [2025-11-02 17:26:33] [32minfo[39m:GET /wallets - 2 record(s) Sent | 3ms
 [2025-11-02 17:27:38] [32minfo[39m:PATCH /wallets/2 - 1 record(s) affected | 12ms
 [2025-11-02 17:27:42] [32minfo[39m:GET /wallets - 2 record(s) Sent | 2ms
+[2025-11-02 17:33:44] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-02 17:33:50] [31merror[39m:[DB error]: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+[2025-11-02 17:33:50] [31merror[39m:ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+[2025-11-02 17:33:58] [32minfo[39m:GET /wallets/1 - 1 record(s) Sent | 10ms
+[2025-11-02 17:34:05] [32minfo[39m:POST /wallets - 1 record(s) affected | 3ms
+[2025-11-02 17:34:10] [32minfo[39m:DELETE /wallets/3 - 1 record(s) affected | 5ms
+[2025-11-02 17:34:13] [32minfo[39m:GET /wallets/1 - 1 record(s) Sent | 2ms
+[2025-11-02 17:34:19] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-02 22:38:57] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-02 22:39:03] [32minfo[39m:GET /wallets - 2 record(s) Sent | 242ms
+[2025-11-02 22:40:51] [32minfo[39m:GET /wallets - 2 record(s) Sent | 9ms
+[2025-11-02 22:44:17] [32minfo[39m:GET /wallets - 2 record(s) Sent | 22ms
+[2025-11-02 22:52:46] [32minfo[39m:GET /transactions - 2 record(s) Sent | 7ms
+[2025-11-02 22:59:29] [32minfo[39m:GET /transactions - 2 record(s) Sent | 6ms
+[2025-11-02 22:59:50] [32minfo[39m:GET /transactions - 2 record(s) Sent | 2ms
+[2025-11-02 23:01:18] [32minfo[39m:GET /transactions - 2 record(s) Sent | 5ms
+[2025-11-02 23:01:23] [32minfo[39m:DELETE /transactions/1 - 1 record(s) affected | 21ms
+[2025-11-02 23:01:24] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-02 23:01:26] [32minfo[39m:GET /transactions - 1 record(s) Sent | 7ms
+[2025-11-02 23:03:45] [32minfo[39m:GET /wallets - 2 record(s) Sent | 4ms
+[2025-11-02 23:05:56] [32minfo[39m:GET /wallets - 2 record(s) Sent | 4ms
+[2025-11-02 23:06:01] [32minfo[39m:DELETE /wallets/1 - 1 record(s) affected | 15ms
+[2025-11-02 23:06:02] [32minfo[39m:GET /wallets - 1 record(s) Sent | 1ms
+[2025-11-02 23:08:11] [32minfo[39m:GET /wallets - 1 record(s) Sent | 5ms
+[2025-11-02 23:08:44] [32minfo[39m:GET /transactions - 1 record(s) Sent | 3ms
+[2025-11-02 23:08:46] [32minfo[39m:GET /wallets - 1 record(s) Sent | 4ms
+[2025-11-02 23:08:46] [32minfo[39m:GET /transactions - 1 record(s) Sent | 8ms

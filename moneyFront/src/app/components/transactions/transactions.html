@@ -1,0 +1,22 @@
+<h3>Számlatörténet</h3>
+<table class="table table-hover table-striped table-bordered mb-3">
+    <thead>
+        <th scope="col">#</th>
+        <th scope="col">Tranzakció összege</th>
+        <th scope="col" >Tranzakció jellege</th>
+        <th>Módosítás</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let transaction of transactions">
+        <td>{{transaction.id}}</td>
+        <td class="text-end">{{transaction.amount}}Ft</td>
+        <td class="text-end">{{transaction.type}}</td>
+         <td class="text-end">
+        <button class="btn btn-sm btn-danger" (click)="delete(transaction.id)" id={{transaction.id}}><i class="bi bi-trash-fill"></i></button>
+      </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="4" class="text-center">Összesen: <span>{{transactions.length}}</span> sorok</td>
+    </tfoot>
+</table>
