@@ -1,14 +1,18 @@
-import{ Injectable } from '@angular/core';
-import { ApiResponse } from '../interfaces/apiresponse';
+import { Injectable } from '@angular/core';
 import axios from 'axios';
+import { ApiResponse } from '../interfaces/apiresponse';
+import { enviroment } from '../../enviroment/enviroment';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
-export class Api {
-  SERVER = 'http://localhost:3000'
-  constructor(){}
- async selectAll(table:string):Promise<ApiResponse>{
+
+export class Apiservice {
+  SERVER = enviroment.serverUrl;
+  constructor() { }
+
+  //GET all records from table -> GET http://localhost:3000/users
+  async selectAll(table:string):Promise<ApiResponse>{
     try{
       const response = await axios.get(`${this.SERVER}/${table}`)
       return {
