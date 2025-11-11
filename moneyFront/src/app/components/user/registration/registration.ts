@@ -55,7 +55,7 @@ export class Registration {
         adress:"",
         phone:""
       }
-      this.router.navigate(['/pizzalist']);
+      this.router.navigate(['/login']);
       
     })
   }

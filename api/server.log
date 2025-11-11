@@ -79,3 +79,161 @@
 [2025-11-02 23:08:44] [32minfo[39m:GET /transactions - 1 record(s) Sent | 3ms
 [2025-11-02 23:08:46] [32minfo[39m:GET /wallets - 1 record(s) Sent | 4ms
 [2025-11-02 23:08:46] [32minfo[39m:GET /transactions - 1 record(s) Sent | 8ms
+[2025-11-11 15:47:31] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-11 15:52:38] [31merror[39m:[DB error]: 
+[2025-11-11 15:52:39] [31merror[39m:[DB error]: 
+[2025-11-11 15:52:40] [31merror[39m:[DB error]: 
+[2025-11-11 15:52:41] [31merror[39m:[DB error]: 
+[2025-11-11 15:52:42] [31merror[39m:[DB error]: 
+[2025-11-11 15:52:43] [31merror[39m:[DB error]: 
+[2025-11-11 15:54:41] [31merror[39m:[DB error]: 
+[2025-11-11 15:54:43] [31merror[39m:[DB error]: 
+[2025-11-11 15:54:47] [31merror[39m:[DB error]: 
+[2025-11-11 16:08:59] [32minfo[39m:GET /wallets - 2 record(s) Sent | 10ms
+[2025-11-11 16:09:02] [32minfo[39m:GET /transactions - 0 record(s) Sent | 3ms
+[2025-11-11 16:09:03] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:03] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 16:09:04] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:06] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:08] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 16:09:09] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:10] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 16:09:10] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:10] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 16:09:12] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 16:09:13] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 16:09:16] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 16:09:17] [32minfo[39m:GET /transactions - 0 record(s) Sent | 0ms
+[2025-11-11 16:42:13] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-11 16:43:04] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-11 16:59:57] [32minfo[39m:GET /transactions - 0 record(s) Sent | 29ms
+[2025-11-11 17:00:22] [32minfo[39m:POST /transactions - 1 record(s) affected | 4ms
+[2025-11-11 17:00:24] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 17:00:25] [32minfo[39m:GET /wallets - 2 record(s) Sent | 3ms
+[2025-11-11 17:00:26] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 17:00:31] [32minfo[39m:DELETE /transactions/1 - 1 record(s) affected | 4ms
+[2025-11-11 17:00:32] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:00:33] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:00:35] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:01:51] [32minfo[39m:GET /wallets - 2 record(s) Sent | 2ms
+[2025-11-11 17:01:55] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:02:01] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:02:01] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:02:02] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 17:02:11] [32minfo[39m:GET /transactions - 0 record(s) Sent | 0ms
+[2025-11-11 17:02:12] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:03:09] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 17:34:33] [32minfo[39m:GET /wallets - 2 record(s) Sent | 2ms
+[2025-11-11 17:34:36] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:34:36] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:34:37] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 17:34:39] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:34:40] [32minfo[39m:GET /wallets - 2 record(s) Sent | 2ms
+[2025-11-11 17:37:30] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:37:31] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:37:33] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:37:34] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:37:37] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:37:37] [32minfo[39m:GET /transactions - 0 record(s) Sent | 1ms
+[2025-11-11 17:37:41] [32minfo[39m:POST /transactions - 1 record(s) affected | 5ms
+[2025-11-11 17:37:42] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 17:37:43] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 17:37:45] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 17:37:46] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 17:37:47] [32minfo[39m:GET /wallets - 2 record(s) Sent | 2ms
+[2025-11-11 17:37:47] [32minfo[39m:GET /wallets - 2 record(s) Sent | 6ms
+[2025-11-11 17:43:58] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:15:54] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:16:01] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:16:01] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:16:25] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:16:41] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 18:16:43] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:16:50] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:16:50] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:16:51] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:16:51] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:18:34] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:21:55] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:23:34] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:25:27] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:26:21] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:26:22] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:26:23] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:26:24] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:26:24] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:26:27] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:26:27] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:26:28] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:26:30] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:26:30] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:26:31] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:26:36] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:26:36] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:26:38] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:26:51] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:26:52] [32minfo[39m:GET /wallets - 2 record(s) Sent | 0ms
+[2025-11-11 18:26:52] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:32:58] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:32:59] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:33:34] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:33:37] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:33:37] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:33:43] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:33:48] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:33:48] [31merror[39m:ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:34:00] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:34:01] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:34:02] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:34:19] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:34:20] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:35:04] [32minfo[39m:GET /wallets - 2 record(s) Sent | 1ms
+[2025-11-11 18:35:05] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:35:08] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:35:09] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:36:01] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:36:02] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:36:02] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:36:02] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:36:03] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:36:04] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:36:06] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:36:14] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:36:14] [31merror[39m:ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:36:34] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:36:34] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:36:35] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:36:35] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:36:41] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:37:08] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:37:13] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:37:13] [31merror[39m:ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:37:16] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:37:16] [31merror[39m:ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:39:20] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:39:20] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:39:26] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:40:33] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:40:34] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:41:09] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:43:42] [32minfo[39m:GET /categories - 0 record(s) Sent | 6ms
+[2025-11-11 18:45:08] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:45:08] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:45:31] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:45:32] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:45:32] [32minfo[39m:GET /categories - 0 record(s) Sent | 2ms
+[2025-11-11 18:45:33] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:45:33] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:45:34] [32minfo[39m:GET /transactions - 1 record(s) Sent | 1ms
+[2025-11-11 18:45:35] [32minfo[39m:GET /transactions - 1 record(s) Sent | 2ms
+[2025-11-11 18:45:37] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:46:17] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:46:23] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:46:31] [32minfo[39m:GET /transactions - 1 record(s) Sent | 0ms
+[2025-11-11 18:46:32] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:46:32] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms
+[2025-11-11 18:46:33] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:47:48] [32minfo[39m:GET /categories - 0 record(s) Sent | 0ms
+[2025-11-11 18:47:49] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:47:49] [31merror[39m:ER_BAD_FIELD_ERROR: Unknown column 'walletId' in 'field list'
+[2025-11-11 18:47:51] [32minfo[39m:GET /categories - 0 record(s) Sent | 1ms

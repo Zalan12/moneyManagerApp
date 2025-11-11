@@ -4,7 +4,7 @@
   "description": "Általános NodeJS backend API",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon server",
+    "dev": "nodemon server",
     "start": "node server"
   },
   "author": "FZ",

@@ -3,27 +3,27 @@ import { Api } from '../../services/api';
 import { CommonModule } from '@angular/common';
 import { Transaction } from '../../interfaces/transaction';
 import { ApiResponse } from '../../interfaces/apiresponse';
-
+import { Categorie } from '../../interfaces/categories';
 
 @Component({
-  selector: 'app-transactions',
+  selector: 'app-categories',
   imports: [CommonModule],
-  templateUrl: './transactions.html',
-  styleUrl: './transactions.scss',
+  templateUrl: './categories.html',
+  styleUrl: './categories.scss',
 })
-export class Transactions {
+export class Categories {
   constructor (private api:Api){}
-  transactions:Transaction[] = [];
-    async ngOnInit() {
-      
-      this.getAllTransactions();
+  categories:Categorie[] = [];
 
+    async ngOnInit() {
+      this.getAllCategories();
     }
-    getAllTransactions(){
-      this.api.selectAll('transactions').then((res:ApiResponse)=>{
+
+    getAllCategories(){
+      this.api.selectAll('categories').then((res:ApiResponse)=>{
         if(res.status==200)
           {
-            this.transactions=res.data;
+            this.categories=res.data;
           }
         
       })
@@ -31,10 +31,10 @@ export class Transactions {
     delete(id:number){
       if(window.confirm('biztos törlöd'))
       {
-        this.api.delete('transactions',id).then((res:ApiResponse)=>{
+        this.api.delete('categories',id).then((res:ApiResponse)=>{
           if(res.status==200){
             alert('Adat sikeresen törölve')
-            this.getAllTransactions();
+            this.getAllCategories();
 
           }
           else{
