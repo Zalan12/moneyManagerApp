@@ -2,15 +2,9 @@
 <hr>
 <h5 *ngIf="!this.id">Új adat felvétele</h5>
 <h5 *ngIf="this.id">Módosítás</h5>
-<div class="input-group">
-    <select class="custom-select" id="inputGroupSelect04" aria-label="Large">
-      <option selected>Bevásárlás</option>
-      <option value="1">Szórakozás</option>
-      <option value="2">Élelmiszer</option>
-      <option value="3">Egyéb</option>
-    </select>
-    <div class="input-group-append d-flex" >
-      <button class="btn btn-outline-secondary" type="button" (click)="saveCat()">Felvétel</button>
-      <button type="button" class="btn btn-secondary" routerLink="/transactions">Vissza</button>
+    <div class="form-floating mb-3 mt-3">
+        <input type="text" class="form-control" id="custNevField" placeholder="" [(ngModel)]="newCategory.type">
+        <label for="custNevField">Neve</label>
     </div>
-  </div>
+      <button type="button" class="btn btn-primary m-3" id="save" (click)="saveCat()"  routerLink="/categories">Mentés <i class="bi bi-floppy"></i></button>
+      <button type="button" class="btn btn-secondary" routerLink="/categories">Vissza</button>
