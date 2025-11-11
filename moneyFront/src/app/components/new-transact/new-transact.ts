@@ -5,6 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Api } from '../../services/api';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Wallet } from '../../interfaces/wallet';
 
 @Component({
   selector: 'app-new-transact',
@@ -22,6 +23,7 @@ export class NewTransact {
       type:""
     }
     allTransActs: Transaction[] = []
+    wallets:Wallet[] = [];
     ngOnInit(): void {
       this.id=this.activatedRoute.snapshot.params['id'];
       if(this.id){
@@ -30,6 +32,17 @@ export class NewTransact {
         })
       }
       this.getAllTransacts();
+      this.getAllWallets();
+    }
+    getAllWallets(){
+      this.api.selectAll('wallets').then((res:ApiResponse)=>{
+        if(res.status==200)
+          {
+            this.wallets=res.data;
+            console.log(this.wallets)
+          }
+        
+      })
     }
   
     constructor(private api: Api, private activatedRoute:ActivatedRoute, private router:Router) { }

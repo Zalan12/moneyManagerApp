@@ -1,0 +1,14 @@
+<h3>Tárca felvétele</h3>
+<hr>
+<h5 *ngIf="!this.id">Új adat felvétele</h5>
+<h5 *ngIf="this.id">Módosítás</h5>
+    <div class="form-floating mb-3 mt-3">
+        <input type="text" class="form-control" id="custNevField" placeholder="" [(ngModel)]="newWallet.balance">
+        <label for="custNevField">Összeg</label>
+      </div>
+          <div class="form-floating mb-3 mt-3">
+        <input type="text" class="form-control" id="custNevField" placeholder="" [(ngModel)]="newWallet.name">
+        <label for="custNevField">Név</label>
+      </div>
+      <button type="button" class="btn btn-primary m-3" id="save" (click)="save()"  routerLink="/transactions">Mentés <i class="bi bi-floppy"></i></button>
+      <button type="button" class="btn btn-secondary" routerLink="/wallets">Vissza</button>

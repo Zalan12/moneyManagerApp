@@ -20,6 +20,7 @@ export class NewCategory {
     type:""
   }
   allCategories: Categorie[] = []
+
   ngOnInit(): void {
     this.id=this.activatedRoute.snapshot.params['id'];
     if(this.id){
